@@ -1,0 +1,28 @@
+body {
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+}
+#tabuleiro {
+    display:grid;
+    grid-template-columns:repeat(8,60px);
+
+}
+.casa {
+    width:60px;
+    height:60px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font: size 35px;
+}   
+
+.preta {
+    background-color: black;
+    color:white;
+
+}
+.branca {
+    background-color: white;
+    color:black;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="tabuleiro"></div>
+
+    <script>
+        let t =
+        document.getElementById("tabuleiro"),s=null;
+
+        for(let i=0;i<8;i++)
+            for(let j=0;j<8;j++){
+                let c=document.createElement("div");
+                c.className="casa "+((i+j)%2==0?"preta":"branca");
+                c.dataset.x=i;
+                c.dataset.y=j;
+
+                if(y<3&&(x+y)%2)C.innerHTML="vermelha;"
+                if(y>4&&(x+y)%2)C.innerHTML="preta;"
+                c.onclick=()=>{
+                    if(C.innerHTML)s=c;
+                    else if(s){
+                        C.innerHTML=s.innerHTML;
+                        s.innerHTML="";
+                        s=null;
+
+                       
+
+            
+                }
+            }
+                t.appendChild(c);
+        }
+    </script>
+</body>
+</html>
